@@ -1,0 +1,150 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.logo{
+	width:20;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo img{
+
+	width: 20%;
+	border: 3px solid white;
+	border-radius:50px;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	cursor: pointer;
+}
+.nav-list{
+width: 100% ;
+background-color:black;
+display: flex;
+align-items: center;
+}
+
+.nav-list li{
+list-style: none;
+padding: 26px 30px;
+}
+
+.nav-list li a{
+text-decoration: none;
+color: white;
+}
+.nav-list li a:hover{
+text-decoration: none;
+color: gray;
+}
+
+
+.rightNav{
+	background-color
+	width: %;
+	text-align: right;
+}
+
+
+#search{
+	padding: 5px;
+	font-size: 17px;
+	border: 2px solid grey;
+	border-radius: 9px;
+}
+.background{
+	background: rgba(0,0,0,0.7) url('../img/city.jpg');
+	background-size:cover;
+	background-blend-mode: darken;
+}
+
+.box-main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: white;
+	font-family: 'segoe UI',Tahoma ,Geneva, Verdana, Sans-serif;
+
+	max-width: 50%;
+	margin: auto;
+}
+.firstsection{
+	height: 100vh;
+}
+.secondhalf{
+   width: 30%;
+
+}
+.secondhalf img{
+   width: 100%;
+   border:8px solid white;
+   border-radius: 150px;
+   display: block;
+   margin:auto;
+}
+
+
+.firsthalf{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.text-big{
+	font-size: 35px;
+
+}
+.text-small{
+	font-size: 18px;
+	
+}
+
+.btn{
+	padding: 8px 20px;
+	margin: 7px 0;
+	border-radius: 8px;
+	font-size: 16px;
+	border: 2px solid white;
+	background: none;
+	color: white;
+
+}
+
+.para{
+	padding: 0px 65px;
+}
+.secright
+{
+	height: 50px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.secright{
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1133px;
+	margin: auto;
+}
+
+.contact{
+	background-color: light;
+	height: 34vh;
+	text-align: center;
+	color: white;
+}
+
+.text-center{
+   text-align: center;
+}
